@@ -8,7 +8,7 @@ import { APP_BASE_HREF } from '@angular/common';
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, AppRoutingModule],
-  providers: [{ provide: APP_BASE_HREF, useValue: 'dist/static' }],
+  providers: [{ provide: APP_BASE_HREF, useValue: '/static' }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
