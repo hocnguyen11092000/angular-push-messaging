@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-fire-base-push-messaging",
+            "outputPath": "dist/static",
             "baseHref": "static/",
             "index": "src/index.html",
             "main": "src/main.ts",
