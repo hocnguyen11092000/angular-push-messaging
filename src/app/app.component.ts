@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
         // Register a service worker hosted at the root of the
         // site using the default scope.
         navigator.serviceWorker
-          .register('/static/firebase-messaging-sw.js', {
+          .register('./static/firebase-messaging-sw.js', {
             scope: '/',
           })
           .then(
