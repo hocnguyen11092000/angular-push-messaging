@@ -12,7 +12,7 @@ import { environment } from 'src/environments/environment';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ServiceWorkerModule.register('/static/firebase-messaging-sw.js', {
+    ServiceWorkerModule.register('./static/firebase-messaging-sw.js', {
       enabled: environment.production,
     }),
   ],
